@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans&display=swap");
+
+/* Global Styling */
+.color-button {
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(91.9deg, #465eb7 0.8%, #6d40d2 99.45%);
+  color: white;
+  font-size: 17px;
+  padding: 0.6rem 1.5rem;
+  margin-left: 1rem;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.color-inverse-button {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(134.39deg, #c73a55 -18.56%, #952c72 74.74%);
+  font-size: 17px;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  margin-left: 1rem;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+/* Faq Changes */
+.faq-row {
+  padding-top: 1rem !important;
+}
+
+.row-content-text {
+  border-left: 1px solid grey;
+  padding-left: 5px !important;
+  margin-left: 1rem !important;
+}
+
+/* Carousel Changes */
+.carousel-slider {
+  overflow: visible !important;
+}
+
+.control-dots {
+  bottom: -40px !important;
+}
+
+/* Outlined Inputs */
+.MuiOutlinedInput-input {
+  padding: 12px 14px !important ;
+  font-family: "Public Sans" !important;
+}
+
+/* Global scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Global Table */
+.table-parent {
+  overflow-x: scroll;
+  min-height: 60vh;
+}
+
+.table {
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+}
+
+.table thead {
+  border-radius: 5px;
+}
+
+.table thead tr {
+  background: linear-gradient(91.9deg, #465eb7 0.8%, #6d40d2 99.45%);
+}
+
+.table td {
+  color: #76839a;
+  text-align: center;
+  padding: 0.8rem 2rem;
+}
+
+.table tbody tr {
+  border-bottom: 0.5px solid #76839a;
+}
+
+.table th {
+  padding: 1rem 2rem;
+}
+
+.table td:first-child,
+.table th:first-child {
+  text-align: left;
+}
+
+.icons {
+  color: #6d40d2 !important;
+  cursor: pointer;
+}
+
+/* PhoneInput */
+.PhoneInput {
+  flex-direction: row-reverse;
+  column-gap: 20px;
+}
+
+.PhoneInput input {
+  font-size: 1rem;
+  padding: 0.8rem 1rem !important;
+  border: 1px rgba(0, 0, 0, 0.23) solid;
+  border-radius: 4px;
+}
+
+/* MUI Global Styling */
+.MuiInputBase-input {
+  padding: 0.8rem 1rem !important;
+}
+
+.MuiInputAdornment-root {
+  color: #00505d !important;
+}
+
+.MuiInputAdornment-root > p {
+  color: #00505d !important;
+}
+
+.MuiInputAdornment-positionEnd {
+  width: min-content !important;
+}
+
+@media screen and (max-width: 500px) {
+  .table {
+    font-size: small;
+  }
+}
+
+/* React Slick Buttons */
+@media screen and (max-width: 500px) {
+  .slick-arrow::before {
+    color: black;
+  }
+
+  .slick-prev {
+    left: -10px;
+  }
+
+  .slick-next {
+    right: -10px;
+  }
+}

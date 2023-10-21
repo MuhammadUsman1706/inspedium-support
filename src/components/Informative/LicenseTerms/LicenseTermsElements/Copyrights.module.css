@@ -1,0 +1,47 @@
+.copyrights {
+  font-family: "Public Sans";
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.copyrights > div {
+  text-align: center;
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.copyrights > div h1 {
+  font-size: xx-large;
+  margin-bottom: 0rem;
+}
+
+.copyrights h1 span {
+  color: #465eb7;
+}
+
+.copyrights img {
+  width: 100px;
+  margin: 1rem;
+}
+
+.copyrights p {
+  color: #76839a;
+  margin: 0.2rem;
+}
+
+.copyrights ul {
+  margin: 0;
+}
+
+.copyrights ul li {
+  color: #76839a;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .copyrights > div {
+    padding: 1rem;
+  }
+}

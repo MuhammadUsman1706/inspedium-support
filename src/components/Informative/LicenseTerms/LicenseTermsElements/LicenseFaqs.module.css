@@ -1,0 +1,41 @@
+.license-faqs {
+  font-family: "Public Sans";
+  box-sizing: border-box;
+  padding: 3rem 2rem;
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.initial-text {
+  text-align: center;
+}
+
+.initial-text h1 {
+  font-size: xx-large;
+  margin: 0;
+}
+
+.initial-text h1 span {
+  color: #465eb7;
+}
+
+.underline {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  color: #76839a;
+  margin-top: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .license-faqs {
+    padding: 2rem 1rem;
+  }
+}

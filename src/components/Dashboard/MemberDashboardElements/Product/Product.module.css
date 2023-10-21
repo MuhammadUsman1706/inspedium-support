@@ -1,0 +1,33 @@
+.product {
+  box-sizing: border-box;
+  font-family: "Public Sans";
+  max-width: 95%;
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .product {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .header button {
+    width: 100%;
+    margin: 0;
+  }
+}

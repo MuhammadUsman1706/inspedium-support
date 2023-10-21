@@ -1,0 +1,39 @@
+.dmca {
+  font-family: "Public Sans";
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.dmca > div {
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.initial-text {
+  text-align: center;
+}
+
+.initial-text h1 {
+  font-size: xx-large;
+  margin: 0;
+}
+
+.initial-text h1 span {
+  color: #465eb7;
+}
+
+.initial-text p {
+  color: #76839a;
+}
+
+.underline {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .dmca > div {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.screenshots-carousel {
+  width: 1000px;
+  max-width: 90%;
+  margin-bottom: 3rem;
+}
+
+.card p {
+  /* width: max-content !important; */
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  font-size: larger !important;
+  bottom: 10px !important;
+}

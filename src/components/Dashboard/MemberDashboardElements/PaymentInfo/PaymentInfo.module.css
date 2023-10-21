@@ -1,0 +1,124 @@
+.credit-card {
+  position: relative;
+  border-radius: 16.9326px;
+  max-width: 400px;
+  font-family: "Public Sans";
+  padding: 1rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.active {
+  background: linear-gradient(91.9deg, #465eb7 0.8%, #6d40d2 99.45%);
+}
+
+.disable {
+  background: linear-gradient(317.25deg, grey 0%, grey 100%) !important;
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.credit-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credit-card-header img {
+  height: 60px;
+  width: 60px;
+}
+
+.credit-card-details {
+  margin-top: 2rem;
+}
+
+.credit-card-details h2 {
+  margin-bottom: 0.2rem;
+}
+
+#card-number {
+  display: flex;
+}
+
+.credit-card-details span {
+  font-size: x-large;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-card-footer {
+  margin-top: 1rem;
+}
+
+.credit-card-footer p {
+  margin: 0;
+}
+
+.card-detail-change {
+  max-width: 95%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Public Sans";
+  margin: 40px 0 !important;
+}
+
+.card-detail-change button {
+  margin-top: 1rem;
+}
+
+.change-form > div {
+  width: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .payment-info {
+    width: 95%;
+  }
+
+  .change-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .payment-info {
+    width: 95%;
+  }
+
+  .change-form > div {
+    width: 100%;
+  }
+
+  .credit-card {
+    max-height: 200px;
+  }
+
+  /* .credit-card-header h2 {
+    margin: 0;
+  } */
+
+  .credit-card-details {
+    margin-top: 0rem;
+  }
+
+  .credit-card-details h2 {
+    margin-top: 0rem;
+  }
+
+  /* .credit-card-footer {
+    margin-top: 0;
+  } */
+}

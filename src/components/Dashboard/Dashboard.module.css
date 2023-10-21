@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  column-gap: 3%;
+  /* column-gap: 4rem; */
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  /* background-color: #f8f7f7; */
+}
+
+.dashboard-display {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  row-gap: 1rem;
+  width: 100%;
+
+  /* New */
+  overflow-x: hidden;
+  padding: 0 0 0 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard-display {
+    align-items: center;
+  }
+}

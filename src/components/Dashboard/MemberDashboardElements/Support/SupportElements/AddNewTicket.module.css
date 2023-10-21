@@ -1,0 +1,55 @@
+.new-ticket {
+  box-sizing: border-box;
+  font-family: "Public Sans";
+  max-width: 95%;
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  display: block;
+  color: #465eb7;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+
+.inline {
+  display: flex;
+  width: 100%;
+  column-gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.inline > div {
+  width: 100%;
+}
+
+.att-label > span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 5px;
+}
+
+.att-input {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .new-ticket {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .inline {
+    flex-direction: column;
+  }
+}

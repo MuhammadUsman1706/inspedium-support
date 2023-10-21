@@ -1,0 +1,88 @@
+.license-details {
+  font-family: "Public Sans";
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.license-details > div {
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.initial-text {
+  text-align: center;
+}
+
+.initial-text h1 {
+  font-size: xx-large;
+  margin: 0;
+}
+
+.initial-text h1 span {
+  color: #465eb7;
+}
+
+.initial-text p {
+  color: #76839a;
+}
+
+.underline {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+.detail-table {
+  width: 100%;
+}
+
+.detail-table thead th p {
+  margin: 0;
+  color: #c73a55;
+  font-size: x-small;
+}
+
+.detail-table th:first-child {
+  text-align: left;
+}
+
+.text {
+  color: #76839a;
+}
+
+.detail-table tbody td {
+  border-bottom: 1px solid grey;
+  padding: 1rem 0;
+}
+
+.detail-table tbody tr td:not(:first-child) {
+  text-align: center;
+}
+
+/* .detail-table tfoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+.detail-table tfoot th {
+  padding-top: 1rem;
+}
+
+.detail-table tfoot p {
+  color: #76839a;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .detail-table {
+    overflow: scroll;
+  }
+
+  .license-details > div {
+    padding: 2rem 1rem;
+  }
+}

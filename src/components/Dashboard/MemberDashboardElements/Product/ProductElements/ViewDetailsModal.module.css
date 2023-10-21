@@ -1,0 +1,19 @@
+.create-modal-form {
+  font-family: "Public Sans";
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+  /* overflow-y: scroll; */
+}
+
+.rules {
+  margin: 1rem 0;
+  color: #76839a;
+}
+
+.rules span {
+  color: black;
+}
+
+.submit-buttons {
+  margin-top: 1rem;
+}
